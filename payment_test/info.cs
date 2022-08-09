@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+
 namespace payment_test
 {
     public class info
@@ -11,11 +13,8 @@ namespace payment_test
 
         public int Phone { get; set; }
 
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
-        public DateTime Date { get; set; }
 
-        [Range(0,99)]
-        public int Age { get; set; }
+        public int Age {get;set;}
 
 
         public bool Gender { get; set; }

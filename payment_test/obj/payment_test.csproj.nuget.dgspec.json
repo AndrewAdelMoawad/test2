@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\clinic\\Desktop\\payment_test\\payment_test\\payment_test.csproj": {}
+    "E:\\work\\payment_test\\payment_test\\payment_test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\clinic\\Desktop\\payment_test\\payment_test\\payment_test.csproj": {
+    "E:\\work\\payment_test\\payment_test\\payment_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\clinic\\Desktop\\payment_test\\payment_test\\payment_test.csproj",
+        "projectUniqueName": "E:\\work\\payment_test\\payment_test\\payment_test.csproj",
         "projectName": "payment_test",
-        "projectPath": "C:\\Users\\clinic\\Desktop\\payment_test\\payment_test\\payment_test.csproj",
+        "projectPath": "E:\\work\\payment_test\\payment_test\\payment_test.csproj",
         "packagesPath": "C:\\Users\\clinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\clinic\\Desktop\\payment_test\\payment_test\\obj\\",
+        "outputPath": "E:\\work\\payment_test\\payment_test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\clinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
